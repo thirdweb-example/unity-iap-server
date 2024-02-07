@@ -4,8 +4,8 @@ Unity IAP Server Implementation
 
 ## Description
 
-This is a server implementation compatible with Unity IAP Apple and Google receipts.
-Validate receipts server-side, and airdrop a blockchain reward to the user's wallet using (thirdweb Engine)[https://portal.thirdweb.com/engine].
+This is a server implementation compatible with [Unity IAP](https://docs.unity3d.com/Packages/com.unity.purchasing@4.10/manual/Overview.html) Apple and Google receipts.
+Validate receipts server-side, and airdrop a blockchain reward to the user's wallet using [thirdweb Engine](https://portal.thirdweb.com/engine).
 
 ## Setup
 
@@ -20,7 +20,7 @@ Environment Variables:
 - `THIRDWEB_ENGINE_URL` - thirdweb Engine endpoint.
 - `THIRDWEB_ENGINE_BACKEND_WALLET` - thirdweb Engine backend wallet that will mint tokens to the user post receipt validation.
 - `THIRDWEB_CHAIN_ID` - chain id where your token reward resides.
-- `THIRDWEB_API_SECRET_KEY` - (thirdweb API Key)[https://thirdweb.com/create-api-key] secret
+- `THIRDWEB_API_SECRET_KEY` - [thirdweb API Key](https://thirdweb.com/create-api-key) secret
 
 ### Google Setup
 
