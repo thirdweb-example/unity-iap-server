@@ -1,21 +1,20 @@
 # Unity IAP Server Template
 
-Unity IAP Server Implementation
+Unity IAP Server Implementation compatible with [Unity IAP](https://docs.unity3d.com/Packages/com.unity.purchasing@4.10/manual/Overview.html) Apple and Google receipts.
 
-## Description
-
-This is a server implementation compatible with [Unity IAP](https://docs.unity3d.com/Packages/com.unity.purchasing@4.10/manual/Overview.html) Apple and Google receipts.
-Validate receipts server-side, and airdrop a blockchain reward to the user's wallet using [thirdweb Engine](https://portal.thirdweb.com/engine).
+## Features
+- Validate receipts server-side
+- Airdrop a blockchain reward to user's wallet using thirdweb [Engine](https://portal.thirdweb.com/engine)
 
 ## Setup
 
-Make sure you set up IAP on the Apple and Google stores for this to work.
+Ensure you set up IAP on the Apple and Google stores.
 
-Follow their respectives guides to setup sandbox mode as well, whereby testers can use test credit cards.
+Follow their respectives guides to setup sandbox mode, whereby testers can use test credit cards.
 
 ### Thirdweb Engine
 
-Environment Variables:
+Environment Variables
 
 - `THIRDWEB_ENGINE_URL` - thirdweb Engine endpoint.
 - `THIRDWEB_ENGINE_BACKEND_WALLET` - thirdweb Engine backend wallet that will mint tokens to the user post receipt validation.
@@ -39,3 +38,17 @@ Environment Variables:
 `APPLE_APP_STORE_ISSUER_ID` - Available on the Keys page where you created your In-App Purchasing Key.
 `APPLE_APP_STORE_KEY_ID` - Available on the Keys page where you created your In-App Purchasing Key.
 `APPLE_APP_STORE_BUNDLE_ID` - The bundle identifier of your Unity game, such as `com.thirdweb.myepicgame` - found in Project Settings.
+
+## Documentation
+
+- Learn more from the [Unity SDK Documentation](https://portal.thirdweb.com/unity)
+
+
+## Contributing
+
+Contributions are always welcome! See our [open source page](https://thirdweb.com/open-source) for more information. 
+
+
+## Support 
+
+For help or feedback, please [visit our support site](https://thirdweb.com/support)
